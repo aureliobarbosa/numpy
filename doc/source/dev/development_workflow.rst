@@ -35,11 +35,12 @@ as clear as possible.
 Making a new feature branch
 ===========================
 
-First, fetch new commits from the ``upstream`` repository:
+First, fetch new commits from the ``upstream`` repository and update submodules:
 
 ::
 
    git fetch upstream
+   git submodules update
 
 Then, create a new branch based on the main branch of the upstream
 repository::
